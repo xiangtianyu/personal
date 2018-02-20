@@ -6,6 +6,7 @@ import homepage from '@/components/homepage'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/helloworld',
